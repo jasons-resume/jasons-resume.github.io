@@ -32,6 +32,9 @@
         th { border-bottom: 1px solid #000033; }
         td.left,th.left { border-left: none; }
         img { border-radius: 22px; }
+        @media print {
+          .noprint { display:none; }
+        }
      </style>
      <link rel="icon" type="image/png" href="favicon.png" />
      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -48,6 +51,9 @@
         
             <h1 class="fn">Jason Mabry</h1>
         
+           <div class="noprint">
+             <i class="fa fa-file-pdf-o"></i>: <a href="mabry.pdf">Download PDF</a>
+           </div>
             <p>
             <i class="fa fa-phone"></i>: <a href="tel://+12766322490"><span class="tel">276.632.2490</span></a><br />
             <i class="fa fa-mobile"></i>:&nbsp; <a href="tel://+12767342747"><span class="tel">276.734.2747</span></a><br />
