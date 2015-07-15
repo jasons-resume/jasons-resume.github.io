@@ -28,8 +28,9 @@
         dd.clear { float: none; margin: 0; height: 15px; }
         ul.nested { margin-bottom: 0; padding-bottom: 0; }
         table,tr,td,th {vertical-align:top; padding-left: 18px; padding-right:18px; border-collapse:collapse; }
-        td,th { border: 1px solid lightblue; }
+        td,th { border-left: 1px solid lightblue; }
         th { border-bottom: 1px solid #000033; }
+        td.left,th.left { border-left: none; }
         img { border-radius: 22px; }
      </style>
      <link rel="icon" type="image/png" href="favicon.png" />
@@ -69,7 +70,7 @@
             <dd>
             <table>
               <tr>
-                <th>
+                <th class="left">
                 <h2>Servers/Infrastructure/Cloud</h2>
               </th>
               <th>
@@ -80,7 +81,7 @@
               </th>
               </tr> 
               <tr>
-                <td>
+                <td class="left">
                 <ul>
                   <li>Active Directory Administration</li>
                   <ul class="nested">
