@@ -18,13 +18,15 @@
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #9FB6CD; font-weight: normal; }
         p { margin: 0 0 16px 0; }
-        a { color: #9FB6CD; text-decoration: none; border-bottom: 1px dotted #999; }
+        a { color: #9FB6CD; text-decoration: none; border-bottom: 1px dotted #9FB6CD; }
         a:hover { border-bottom-style: solid; color: black; }
+        a.top { color: #000033; border-bottom: none; }
+        a.top:hover { color: black; }
         ul { margin: 0 0 32px 17px; }
         #objective { width: 500px; float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #778899; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dt.last { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 30px; border-right: 1px solid #999;  }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #9FB6CD;  }
+        dt.last { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 30px; border-right: 1px solid #9FB6CD;  }
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
         ul.nested { margin-bottom: 0; padding-bottom: 0; }
@@ -50,9 +52,17 @@
         
             <!-- Microformats! -->
         
-            <h1 class="fn">Jason Mabry</h1>
-        
-           <div class="noprint">
+            <h1 class="fn">
+              Jason Mabry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="noprint">
+                <a class="top" href="https://github.com/jmabry111" target="_blank"><i class="fa fa-github-square"></i></a>&nbsp;
+                <a class="top" href="https://www.linkedin.com/in/jmabry111" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;
+                <a class="top" href="https://twitter.com/jemabry" target="_blank"><i class="fa fa-twitter-square"></i></a>
+              </span>
+            </h1>
+
+ 
+            <div class="noprint">
              <i class="fa fa-print"></i>: <a href="javascript:window.print()">Print</a><br /><br />
            </div>
             <p>
