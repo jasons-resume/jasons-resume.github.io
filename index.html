@@ -26,22 +26,29 @@
         ul { margin: 0 0 32px 17px; }
         #objective { width: 530px; float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #778899; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #9FB6CD;  }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 100px; float: left; height: 100px; border-right: 1px solid #9FB6CD;  }
         dt.last { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 30px; border-right: 1px solid #9FB6CD;  }
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
         ul.nested { margin-bottom: 0; padding-bottom: 0; }
-        table,tr,td,th {vertical-align:top; padding-left: 18px; padding-right:18px; border-collapse:collapse; }
+        table,tr,td,th {vertical-align:top; padding-left: 0px; padding-right:18px; border-collapse:collapse; }
         td,th { border-left: 1px solid lightblue; }
         th { border-bottom: 1px solid lightblue; }
         td.left,th.left { border-left: none; }
         img { border-radius: 18px; }
+        .fa.fa-twitter{
+        	font-family:sans-serif;
+        }
+        .fa.fa-twitter::before{
+        	content:"𝕏";
+        	font-size:1.2em;
+        }
         @media print {
           .noprint { display:none; }
         }
      </style>
      <link rel="icon" type="image/png" href="favicon.png" />
-     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
 </head>
 
@@ -58,7 +65,7 @@
               <span class="noprint" id="smaller">
 <!--                <a class="top" href="https://github.com/jmabry111" target="_blank"><i class="fa fa-github-square"></i></a>&nbsp;-->
                 <a class="top" href="https://www.linkedin.com/in/jmabry111" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;
-                <a class="top" href="https://twitter.com/jemabry" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                <a class="top" href="https://twitter.com/jemabry" target="_blank"><i class="fa fa-twitter"></i></a>
               </span>
             </h1>
 
@@ -103,7 +110,7 @@
                   <li>Hybrid Azure Active Directory Administration</li>
                   <ul class="nested">
                     <li><em>Group Policy, File &amp; Print Services, RADIUS/LDAP, EntraID, Exchange Online</em></li>
-                    <li><em>Backup Information Security Officer</em></li>
+                    <li><em>Information Security Officer</em></li>
                   </ul>
                   <li>Google Apps Administration</li>
                   <li>Microsoft 365 Administration</li>
